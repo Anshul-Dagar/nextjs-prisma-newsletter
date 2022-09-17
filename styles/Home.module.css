@@ -1,0 +1,71 @@
+.container {
+  display: flex;
+  min-height: 100vh;
+  background: var(--teal-2);
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+}
+
+.main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 60vw;
+  min-height: 60vh;
+  background: var(--teal-1);
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-content: center;
+  border-radius: var(--radius-4);
+}
+
+.heading {
+  font-size: var(--font-size-fluid-2);
+  font-weight: var(--font-weight-9);
+  max-inline-size: var(--size-header-3);
+  padding: var(--size-fluid-1);
+  font-family: 'Poppins', sans-serif;
+}
+
+.desc {
+  font-size: var(--font-size-fluid-1);
+  max-inline-size: var(--size-content-3);
+  padding-top: var(--size-fluid-2);
+  font-family: 'Montserrat', sans-serif;
+  padding-bottom: var(--size-fluid-2);
+}
+
+.spacer {
+  width: 30vh;
+  border-bottom: var(--border-size-2) solid var(--green-8);
+}
+
+.input {
+  padding: var(--size-fluid-1);
+  margin: var(--size-fluid-1);
+  border: var(--border-size-2) solid var(--green-8);
+  font-family: 'Montserrat', sans-serif;
+  background-color: var(--teal-1);
+}
+
+.input:focus {
+  border: none;
+}
+
+.button {
+  color: black;
+  padding-top: var(--size-fluid-1);
+  padding-bottom: var(--size-fluid-1);
+  background-color: var(--teal-1);
+  border: var(--border-size-2) solid var(--green-8);
+  text-shadow: 0 1px 0 var(--blue-2);
+  font-family: 'Montserrat', sans-serif;
+}
+
+.button:hover {
+  background-color: var(--teal-2);
+  color: black;
+}
